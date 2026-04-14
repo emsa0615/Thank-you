@@ -1,0 +1,110 @@
+/* body{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(120deg ,rgb(36, 1, 38),rgb(90, 2, 110),rgb(169, 5, 198));
+    background-size: 200% 200%;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero{
+    height: 100vh;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    border: 3px solid black;
+    border-radius: 10px;
+    animation: gradientMove 10s ease infinite;
+}
+.content{
+    padding: 20px;
+    text-align: center;   
+    background-color: antiquewhite; 
+    border: 5px solid black;
+    box-shadow: 0, 10px 25px rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    color: white;
+    font-family:sans-serif;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    transition: all 0.3s ease;
+}
+a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+} */
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, rgb(36, 1, 38), rgb(90, 2, 110), rgb(169, 5, 198));
+    background-size: 200% 200%;
+    animation: gradientMove 10s ease infinite;
+}
+
+#hero {
+    height: 100vh;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    border: 3px solid rgb(57, 0, 57);
+}
+
+h1 {
+    margin-bottom: 40px;
+
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
